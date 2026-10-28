@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heydev"
+version = "0.1.0"
+description = "Serverless SSH-authenticated CLI messaging for developers"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "websockets",
+    "cryptography",
+]
+
+[project.scripts]
+heydev = "heydev:main"
+
+[tool.setuptools]
+py-modules = ["heydev", "auth"]
+
