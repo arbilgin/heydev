@@ -1,6 +1,3 @@
-# CS50x Final Project - heydev
-# Used Gemini for help writing pytest fixtures.
-
 from pathlib import Path
 
 from auth import load_or_create_key, sign_challenge, verify_signature
@@ -66,7 +63,9 @@ def test_verify_incoming_tofu_and_impostor(tmp_path, monkeypatch):
 
 
 def test_parse_args_send(monkeypatch):
-    monkeypatch.setattr("sys.argv", ["heydev.py", "-u", "arda", "bob", "hello", "world"])
+    monkeypatch.setattr(
+        "sys.argv", ["heydev.py", "-u", "arda", "bob", "hello", "world"]
+    )
     args = parse_args()
     assert args.user == "arda"
     assert args.recipient == "bob"
