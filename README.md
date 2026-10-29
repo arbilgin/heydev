@@ -29,7 +29,6 @@ You can also run the script directly with Python without installing the CLI comm
 
 ```bash
 pip install -r requirements.txt
-python3 heydev.py bob "Hello!"
 python3 heydev.py
 ```
 
