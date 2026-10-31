@@ -1,6 +1,6 @@
 # heydev
 #### A Serverless SSH-Authenticated CLI Messaging Tool for Developers
-#### Video Demo:  
+#### Video Demo:  https://youtu.be/fhPW5FRikdM
 #### Description:
 
 **heydev** is a serverless, command-line messaging tool built for software developers who live in the terminal. Modern engineering teams constantly need to share quick status updates, error tracebacks, test results, or configuration snippets with teammates. However, doing so usually requires context-switching out of the terminal into heavy web or desktop chat applications, creating user accounts, managing passwords, or spinning up and maintaining dedicated chat servers.
